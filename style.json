@@ -133,8 +133,7 @@
                             "text-font": [
                                 "Heebo Black",
                                 "Arial Unicode MS Regular"
-                            ],
-                            "text-size-scale-range": [1.6, 4.1]
+                            ]
                         },
                         "paint": {
                             "text-color": "hsl(0, 0%, 100%)",
@@ -255,7 +254,7 @@
                             ],
                             "line-dasharray": [2, 0]
                         },
-                        "layout": {"line-cap": "square", "line-join": "none"}
+                        "layout": {"line-cap": "square", "line-join": "miter"}
                     },
                     "admin-0-boundary-bg": {
                         "paint": {
@@ -2188,7 +2187,7 @@
                 ["==", ["get", "maritime"], "false"],
                 ["match", ["get", "worldview"], ["all", "US"], true, false]
             ],
-            "layout": {"line-cap": "square", "line-join": "none"},
+            "layout": {"line-cap": "square", "line-join": "miter"},
             "paint": {
                 "line-dasharray": [2, 0],
                 "line-width": [
