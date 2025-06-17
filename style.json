@@ -152,8 +152,7 @@
                             "text-font": [
                                 "Heebo Black",
                                 "Arial Unicode MS Regular"
-                            ],
-                            "text-size-scale-range": [1.8, 4]
+                            ]
                         }
                     },
                     "settlement-subdivision-label": {
@@ -3020,7 +3019,6 @@
                 ],
                 "symbol-sort-key": ["get", "symbolrank"],
                 "icon-image": "",
-                "text-size-scale-range": [1.8, 4],
                 "text-font": ["Heebo Black", "Arial Unicode MS Regular"],
                 "text-anchor": ["step", ["zoom"], "center", 8, "center"],
                 "text-field": ["coalesce", ["get", "name_en"], ["get", "name"]],
@@ -3113,7 +3111,6 @@
                 ],
                 "symbol-sort-key": ["get", "symbolrank"],
                 "icon-image": "",
-                "text-size-scale-range": [1.6, 4.1],
                 "text-font": ["Heebo Black", "Arial Unicode MS Regular"],
                 "text-anchor": ["step", ["zoom"], "center", 8, "center"],
                 "text-field": ["coalesce", ["get", "name_en"], ["get", "name"]],
